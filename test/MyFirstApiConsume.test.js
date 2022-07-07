@@ -23,7 +23,7 @@ describe('First Api Tests', () => {
         expect(response.config.query).to.eql(query);
     })
 
-    it('Consume POST service', async() => {
+    it('Consume POST service with query parameters', async() => {
         const query = {
             name: 'John',
             age: '31',
@@ -38,7 +38,7 @@ describe('First Api Tests', () => {
 
     })
 
-    it('Consume PATCH service', async() => {
+    it('Consume PATCH service with query parameters', async() => {
         const query = {
             name: 'John',
             age: '31',
@@ -53,7 +53,7 @@ describe('First Api Tests', () => {
 
     })
 
-    it('Consume PUT service', async() => {
+    it('Consume PUT service with query parameters', async() => {
         const query = {
             name: 'John',
             age: '31',
@@ -68,7 +68,7 @@ describe('First Api Tests', () => {
 
     })
 
-    it('Consume DELETE service', async() => {
+    it('Consume DELETE service with query parameters', async() => {
         const query = {
             name: 'John',
             age: '31',
@@ -80,7 +80,5 @@ describe('First Api Tests', () => {
         expect(response.status).to.equal(StatusCodes.OK);
         expect(response.data.json).to.be.null;
         expect(response.data.data).to.be.empty;
-
-
     })
 });

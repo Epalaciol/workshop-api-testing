@@ -15,7 +15,7 @@
     "dojo",
     "practice"
   ],
-  "author": "Esteban <esteban.1054@hotmail.com> (http://seon.com/)",
+  "author": "Esteban <esteban.1054@hotmail.com> (https://github.com/Epalaciol)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Epalaciol/workshop-api-testing/issues"
@@ -28,5 +28,8 @@
   },
   "dependencies": {
     "axios": "^0.27.2"
+  },
+  "directories": {
+    "test": "test"
   }
 }
